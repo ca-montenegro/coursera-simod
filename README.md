@@ -18,8 +18,11 @@ and the mapping between activities and resource pools, which are a required elem
 
 ### Configuration
 
-1. Install all requiered parameters listed in requirements.txt. This can be make by executing pip install -r requeriments.txt in console
-2. You can execute the tool by adding the log event file into the input directory, next modify the simod_optimizer.py file in line 27 by changing the name of the file you want to get simulator parameters
+1. Install all requiered parameters listed in requirements.txt. This can be make by executing the following command in the console
+````
+pip install -r requeriments.txt
+````
+3. You can execute the tool by adding the log event file into the input directory, next modify the simod_optimizer.py file in line 27 by changing the name of the file you want to get simulator parameters
 
 
 ### Execution steps

@@ -1,0 +1,18 @@
+name: simod
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - pandas
+  - lxml
+  - networkx
+  - pillow
+  - seaborn
+  - ipywidgets
+  - xmltodict
+  - pip:
+    - hyperopt
+    - jellyfish
+    - opyenxes
+    - tqdm
+    - git+http://github.com/Mcamargo85/support_modules.git

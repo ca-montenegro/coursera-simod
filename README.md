@@ -4,9 +4,12 @@ Simod combines several process mining techniques to automate the generation and 
 
 ### Prerequisites
 
-To execute this code, you need to install Git and Anaconda in your system. Once installed, you can create an environment using the *simo.yml* specification provided in the repository.
-
-
+To execute this code, you will need:
+````
+ - python 3.x
+ - Java 8.x
+````
+ 
 ### Data format
  
 The tool assumes the input is composed of a case identifier, an activity label, a resource attribute (indicating which resource performed the activity), 
@@ -15,7 +18,8 @@ and the mapping between activities and resource pools, which are a required elem
 
 ### Configuration
 
-You can execute the tool from the file simod_ui.py with a python console or IDE.
+1. Install all requiered parameters listed in requirements.txt. This can be make by executing pip install -r requeriments.txt in console
+2. You can execute the tool by adding the log event file into the input directory, next modify the simod_optimizer.py file in line 27 by changing the name of the file you want to get simulator parameters
 
 
 ### Execution steps
